@@ -1,6 +1,9 @@
 <template>
-    <div class="bg">
-        <div class="grid grid-cols-5">
+    <div class="bg" >
+        <div v-if="pending" class="loading">
+<img src="~assets/images/loading.gif"  alt="">
+        </div>
+        <div class="grid grid-cols-5" v-else>
             <div class="box col-span-2">
             <h1 class="text-4xl pb-2 align-text-top"> {{ meal.meals[0].strMeal }}</h1>
         <img :src="meal.meals[0].strMealThumb" alt="">
@@ -68,8 +71,9 @@
 
 <script setup>
 const route = useRoute();
-const { data: meal } = await useFetch(`https://themealdb.com/api/json/v1/1/lookup.php?i=${route.params.id}`)
-const { data: Ingredient } = await useFetch(`https://themealdb.com/images/ingredients/Lime.png=${route.params.id}`)
+const url =ref(`https://themealdb.com/api/json/v1/1/lookup.php?i=${route.params.id}`)
+const { data: meal , pending  } =  useFetch(url, { refetch: true })
+
 
 </script>
 
@@ -79,6 +83,12 @@ const { data: Ingredient } = await useFetch(`https://themealdb.com/images/ingred
     background: #302414;
     text-align: center;
     color: #fff;
+}
+.loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .strMeal {
