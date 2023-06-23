@@ -10,7 +10,7 @@
     <div class="py-2 bg ">
         <div class="bg flex justify-center ">
         <label for="" class="text-white text-3xl" >Search Items by name</label>
-        <input type="text" v-model="char" class="border py-2 px-2 mx-2 bg-white text-black" />
+        <input type="text" v-model="char" class="border py-2 px-2 mx-2 bg-white text-black" placeholder="Search by name" />
         <button @click="getUrl(char)" class="py-2 px-5 bg-blue-500 text-white rounded-full ">
             <i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
@@ -68,7 +68,7 @@ const actionItems = [
         role: 'login',
     },
 ];
-const char = ref("Arrabiata");
+const char = ref("");
 const url = ref("https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata");
 const { data: items, pending } = await useFetch(url, { refectch: true });
 function getUrl(char) {

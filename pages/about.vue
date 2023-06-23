@@ -7,8 +7,8 @@
                 in the hope that developers would build applications and cool projects ontop of <br>
                 TheMealDB originated on the Kodi forums as a way to browse recpies on your TV.
             </p>
-            <div class=" justify-center flex  p-4">
-                    <img src="https://raw.githubusercontent.com/zag2me/script.screensaver.themealdb/master/icon.png" alt="">
+            <div class=" justify-center flex  p-4 w-150 h-150">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/356181470_576890121267627_312773530390581001_n.jpg?stp=dst-jpg_s206x206&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=2wdpAfn5PV4AX_aTgDp&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQFcHG1EFAkJ71m4SAhp30UXSmOG-Vln-0T_o8Kq5ThSg&oe=64BC9D1B" alt="">
          </div>
          <p class="text-white text-center">
                 A recipe is a set of instructions that describes how to prepare or make <br>
