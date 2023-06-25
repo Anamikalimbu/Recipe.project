@@ -10,7 +10,7 @@ Proudly built in the Nepal
 
 </ul>
 <ul>
- <li class="text-white "> <h1>We are</h1>
+ <li class="text-white "> <h1>We are on</h1>
  <i class="fa-brands fa-facebook me-2"></i>
  <i class="fa-brands fa-instagram me-2"></i>
  <i class="fa-brands fa-youtube me-2"></i>

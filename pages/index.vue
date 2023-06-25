@@ -37,18 +37,6 @@
         </div>
 
     </div> <hr>
-
-    <div class="flex justify-center bg">
-        <h1 class="text-white me-10 text-3xl p-2 font-mono">Click here</h1>
-        <button class=" bg-yellow-950 me-8 mb-2 text-white">
-            <NuxtLink to="/products">Product</NuxtLink>
-        </button>
-        <button class=" bg-yellow-950 me-8 mb-2 text-white">
-            <NuxtLink to="/products/byalphabet">Alphabet</NuxtLink>
-        </button>
-
-    </div>
-    <hr>
 </template>
 
 <script setup>
