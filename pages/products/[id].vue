@@ -57,7 +57,7 @@
             </div>
         </div>
 
-    <div class="bg">
+    <div class="bg container m-auto">
         <h1 class="strMeal text-4xl"> Name : {{ meal.meals[0].strMeal }}</h1>
         <h2 class="strCategory font-extrabold text-3xl">Category : {{ meal.meals[0].strCategory }}</h2>
         <h2 class="text-3xl text-start ">Instruction : </h2>
