@@ -3,7 +3,7 @@
         <div class="container m-auto">
             <h1 class=" font-bold text-white text-center py-4 ">About</h1>
             <p class="text-white text-center">
-                TheMealDB was built in 2023 to provide a free data source for recipes online <br>
+                Anamikacrew was built in 2023 to provide a free data source for recipes online <br>
                 in the hope that developers would build applications and cool projects ontop of <br>
                 TheMealDB originated on the Kodi forums as a way to browse recpies on your TV.
             </p>
