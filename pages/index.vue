@@ -23,20 +23,7 @@
         </div>
     </div>
     <hr>
-    <div class="bg">
-        <h1 class="text-center text-white">Some Meal </h1>
-        <div class="grid grid-cols-4 gap-2 py-2 px-2 bg">
-            <img src="https://www.themealdb.com/images/media/meals/va668f1683209318.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/c7lzrl1683208757.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/bopa2i1683209167.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/o2wb6p1581005243.jpg" alt="">
-            <img src="https://www.themealdb.com/images/media/meals/tqrrsq1511723764.jpg" alt="">
-        </div>
 
-    </div> <hr>
 </template>
 
 <script setup>
