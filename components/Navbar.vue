@@ -13,7 +13,7 @@
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
     </button>
     <div class="hidden w-full md:block md:w-auto bg-yellow-950" id="navbar-dropdown">
-      <ul class="flex flex-col justify-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-yellow-950 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-yellow-950 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-yellow-950 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-yellow-950 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
           <NuxtLink to="/about" class="block py-2 pl-3 pr-4 text-white bg-yellow-950 rounded md:bg-transparent
           md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">About</NuxtLink>
@@ -31,9 +31,13 @@
           <NuxtLink to="/products/byalphabet" class="block py-2 pl-3 pr-4 text-white bg-yellow-950 rounded md:bg-transparent
           md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Alphabet</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/search" class="block py-2 pl-3 pr-4 text-white bg-yellow-950 rounded md:bg-transparent
+          md:text-white md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Search</NuxtLink>
+        </li>
       </ul>
     </div>
-  </div>
+  </div> <hr>
 </nav>
 
   </div>

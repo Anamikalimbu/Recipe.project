@@ -1,54 +1,26 @@
 <template>
-    <div class=" bg">
+<div class="bg">
+    <div class=" container m-auto py-2 ">
         <h1 class=" text-center text-white text-3xl font-bold py-2 ">Anamikacrew</h1>
-        <p class=" text-white font-headings text-center py-3 text-3xl"> This is Recipe Website.I welcome u here. <br> Thank
-            You for visiting Our Page. Hope u like and get help to make tasty food.</p>
-    </div>
-    <hr>
+        <p class="text-white text-center text-xl">Welcome to our recipe website, your one-stop destination for culinary inspiration! Whether <br>
+             you're an experienced chef or just starting your culinary journey, we have a wide array of <br> mouthwatering recipes to tantalize your taste buds. From delectable appetizers to hearty main <br>
+              courses and indulgent desserts, our collection covers a diverse range of cuisines and dietary <br>
+               preferences. Explore our carefully curated selection of recipes, complete with detailed <br>
+                instructions, ingredient lists, and helpful tips to ensure your culinary success. We believe that <br> cooking should be a joyous and creative experience, so we're here to empower you with the knowledge <br>
+                 and inspiration to create delicious meals that will impress your family and friends. So, roll up <br>
+                  your sleeves, grab your apron, and let's embark on a flavorful adventure together!
 
 
-    <div class="py-2 bg ">
-        <div class="bg flex justify-center ">
-        <label for="" class="text-white text-3xl" >Search Items by name</label>
-        <input type="text" v-model="char" class="border py-2 px-2 mx-2 bg-white text-black" placeholder="Search by name" />
-        <button @click="getUrl(char)" class="py-2 px-5 bg-blue-500 text-white rounded-full ">
-            <i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-        <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-1 gap-2 ">
-            <div v-for="(p, index) in items.meals" :key="index">
-                <NuxtLink :to="`/products/${p.idMeal}`">
-                    <ProductCard :product="p" />
-                </NuxtLink>
-            </div>
-        </div>
+
+
+</p>
     </div>
     <hr>
+</div>
 
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import {
-    SfButton,
-    SfIconPerson,
-    SfInput,
-    SfIconSearch,
-} from '@storefront-ui/vue';
-
-const actionItems = [
-    {
-        label: 'Log in',
-        icon: SfIconPerson,
-        ariaLabel: 'Log in',
-        role: 'login',
-    },
-];
-const char = ref("");
-const url = ref("https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata");
-const { data: items, pending } = await useFetch(url, { refectch: true });
-function getUrl(char) {
-    url.value = `https://www.themealdb.com/api/json/v1/1/search.php?s=${char}`;
-}
 
 </script>
 
