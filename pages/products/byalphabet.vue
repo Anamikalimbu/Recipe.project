@@ -7,7 +7,7 @@
             <label for="" class="text-white">Search Items by Alphabet</label>
         <input type="text" v-model="ch" class="border py-2 px-2 mx-2 bg-white text-black " maxlength="1" />
         <button @click="getUrl(ch)" class="py-2 px-5 bg-blue-500 text-white rounded-full "><i class="fa-solid fa-magnifying-glass"></i></button>
-        <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-2 gap-2 ">
+        <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-1 gap-2 ">
                 <div v-for="(p, index) in items.meals" :key="index">
                 <NuxtLink :to="`/products/${p.idMeal}`"><ProductCard :product="p" /></NuxtLink>
             </div>
