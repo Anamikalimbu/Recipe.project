@@ -4,6 +4,7 @@
             <p class="text-white">© 2023 Anamikacrew <br>
                 Proudly built in the Nepal
             </p>
+            <ul>
                 <li class="text-white ">
                     <h1>We are on</h1>
                     <i class="fa-brands fa-facebook me-2"></i>
