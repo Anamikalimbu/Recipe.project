@@ -1,6 +1,6 @@
 <template>
     <div class=" bg-yellow-950 p-4">
-        <div class="container grid grid-cols-5">
+        <div class="container grid lg:grid-cols-5 md:grid-cols-2">
             <p class="text-white">© 2023 Anamikacrew <br>
                 Proudly built in the Nepal
             </p>
