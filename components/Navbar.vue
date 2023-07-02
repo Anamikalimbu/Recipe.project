@@ -16,7 +16,6 @@
 
           </picture>
         </a>
-      
         <form
           role="search"
           class="flex flex-[100%] order-last lg:order-3 mt-2 lg:mt-0 pb-2 lg:pb-0 "
@@ -45,6 +44,7 @@
             </template>
           </SfInput>
         </form>
+
         <nav class="flex-1 flex justify-end lg:order-last lg:ml-4">
           <div class="flex flex-row flex-nowrap">
             <SfButton
