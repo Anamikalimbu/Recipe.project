@@ -1,8 +1,8 @@
 <template>
   <div>
     
-<nav class="  bg-yellow-950 border-gray-200 dark:bg-gray-900 dark:border-gray-700 items-center justify-center">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="  bg-yellow-950 border-gray-200 dark:bg-gray-900 dark:border-gray-700 flex  items-center justify-center">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between  p-4">
     <!-- <a href="#" class="flex items-center">
         <img src="~assets/images/logo.png"  class=" w-50 h-20 "  alt="Flowbite.Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
@@ -12,7 +12,7 @@
       <span class="sr-only">Open main menu</span>
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
     </button>
-    <div class="hidden w-full md:block md:w-auto bg-yellow-950 items-center justify-center" id="navbar-dropdown">
+    <div class="hidden w-full md:block md:w-auto bg-yellow-950  items-center justify-center" id="navbar-dropdown">
       <ul class="flex flex-col items-center justify-center font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-yellow-950 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-yellow-950 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 ">
         <li>
           <NuxtLink to="/about" class="block py-2 pl-3 pr-4 text-white bg-yellow-950 rounded md:bg-transparent
