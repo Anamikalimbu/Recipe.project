@@ -22,7 +22,7 @@
     </select>
          </div>
             </div>
-            <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-1 gap-2 ">
+            <div class="container m-auto grid lg:grid-cols-4 md:grid-cols-1 md:px-4 md:ms-4 gap-2 ">
                 <div v-for="(p, index) in data.meals" :key="index">
                 <NuxtLink :to="`/products/${p.idMeal}`"><ProductCard :product="p" /></NuxtLink>
             </div>
