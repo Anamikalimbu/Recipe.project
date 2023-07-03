@@ -5,7 +5,7 @@
         </div>
         <div class="grid lg:grid-cols-5 md:grid-cols-1" v-else>
             <div class="box col-span-2">
-            <h1 class="text-4xl pb-2 align-text-top"> {{ meal.meals[0].strMeal }}</h1>
+            <h1 class="lg:text-4xl m pb-2 align-text-top"> {{ meal.meals[0].strMeal }}</h1>
         <img :src="meal.meals[0].strMealThumb" alt="">
         </div>
             <div class="col-span-2">

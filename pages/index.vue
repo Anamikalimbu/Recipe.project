@@ -1,8 +1,8 @@
 <template>
-<div class="bg">
-    <div class="my-component  py-2  ">
-        <h1 class=" text-start text-white text-3xl font-bold py-2 px-40 ">Anamikacrew</h1>
-        <p class="text-white text-start text-xl px-2">
+<div class="bg ">
+    <div class=" py-5">
+        <h1 class=" text-center text-white lg:text-4xl md:text-xl font-bold py-5 ">Anamikacrew</h1>
+        <p class="text-white text-center lg:text-xl sm:text-sm px-2">
             Welcome to our recipe website, your one-stop destination for culinary <br>
             inspiration! Whether you're an experienced chef or just starting your <br>
             culinary journey, we have a wide array of  mouthwatering recipes to <br>
@@ -21,8 +21,7 @@
 
 </p>
     </div>
-    <hr>
-</div>
+</div> <hr>
 
 </template>
 
@@ -32,18 +31,7 @@
 
 <style  scoped>.bg {
     background-color: #302414;
-}
-.my-component {
-  background-image: url('~/assets/images/background.jpg');
-  background-size: cover;
-  background-repeat: none;
-  height: 100vh;
+    height: 100vh;
   width: 100%;
-  overflow: hidden;
-  /* Additional CSS properties for styling the background */
-}
-.my-component img{
-    object-fit: cover;
-  /* Additional CSS properties for styling the background */
 }
 </style>
