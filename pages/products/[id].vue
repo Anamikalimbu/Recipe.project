@@ -3,7 +3,7 @@
         <div v-if="pending" class="loading">
 <img src="~assets/images/loading.gif"  alt="">
         </div>
-        <div class="grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1" v-else>
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1" v-else>
             <div class="box col-span-2">
             <h1 class="lg:text-4xl m pb-2 align-text-top"> {{ meal.meals[0].strMeal }}</h1>
         <img :src="meal.meals[0].strMealThumb" alt="">
